@@ -13,7 +13,8 @@ export const Category = () => {
                     return <li 
                         key={index} 
                         className={activeCatigory === index ? 'active' : ''}
-                        onClick={() => setActiveCatigory(index)}>
+                        onClick={() => setActiveCatigory(index)}
+                        >
                             {el}
                     </li>
                   })

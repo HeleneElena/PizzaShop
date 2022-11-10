@@ -1,13 +1,14 @@
 import { useState } from 'react';
 
-export const Sort = () => {
-    const SORT = ['популярности', 'цене', 'алфавиту'];
-    const [isOpen, setIsOpen] = useState(false);
-    const [active, setActive] = useState(0);
-    const name = SORT[active];
+export const Sort = ({ active, onChangeSort }) => {
+const SORT = [{name: 'популярности', sortProperty: 'rating'},
+              {name: 'цене', sortProperty: 'price'},
+              {name: 'алфавиту', sortProperty: 'title'}, ];
 
-    const changeSort = (i) => {
-        setActive(i);
+    const [isOpen, setIsOpen] = useState(false);
+
+    const changeSort = (id) => {
+        onChangeSort(id);
         setIsOpen(false);
     };
 
@@ -27,16 +28,16 @@ export const Sort = () => {
                     />
                 </svg>
                 <b>Сортировка по:</b>
-                <span onClick={() => setIsOpen(!isOpen)}>{name}</span>
+                <span onClick={() => setIsOpen(!isOpen)}>{active.name}</span>
             </div>
             <div className="sort__popup">
             <ul>
                 { isOpen && (
-                    SORT.map((sort, i) => {
-                        return <li key={i}
-                                   className={active === i ? 'active' : ''}
-                                   onClick={() => changeSort(i)}
-                        >{sort}</li>
+                    SORT.map((obj, id) => {
+                        return <li key={id}
+                                   className={active.sortProperty === obj.sortProperty ? 'active' : ''}
+                                   onClick={() => changeSort(obj)}
+                        >{obj.name}</li>
                     })
                 )
                     

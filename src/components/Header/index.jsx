@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/img/pizza-logo.svg';
+import { Search } from '../../Search';
 
 export const Header = () => {
     return (
@@ -9,6 +10,7 @@ export const Header = () => {
             <Link to='/'> 
               <img width="38" src={Logo} alt="Pizza logo" />
             </Link>
+            <Search />
             <div>
               <h1>React Pizza</h1>
               <p>самая вкусная пицца во вселенной</p>

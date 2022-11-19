@@ -2,16 +2,18 @@ import { PizzaBlock } from '../../components/PizzaBlock';
 import Skeleton from '../../components/PizzaBlock/Skeleton';
 import { Category } from '../../components/Category';
 import { Sort } from '../../components/Sort';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import { Pagination } from '../../components/Pagination';
+import { SearchContext } from './../../App';
 
-export const Home = ({ searchValue }) => {
+export const Home = () => {
+    const {searchValue} = useContext(SearchContext);
     const [items, setItems] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const [activeCatigory, setActiveCatigory] = useState(0);
     const [currentPage, setCurrentPage] = useState(1);
     const [active, setActive] = useState({name: 'популярности', sortProperty: 'rating'});
-
+    
     useEffect(() => {
         setIsLoading(true);
         const order = active.sortProperty.includes('-') ? 'asc' : 'desc';

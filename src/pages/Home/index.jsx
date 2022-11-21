@@ -18,8 +18,8 @@ export const Home = () => {
         setIsLoading(true);
         const order = active.sortProperty.includes('-') ? 'asc' : 'desc';
         const sortBy = active.sortProperty.replace('-', ''); 
-        const category = activeCatigory > 0 ? `category=${activeCatigory}` : '' ;
-        const search = searchValue > 0 ? `&search=${searchValue}` : '' ;
+        const category = activeCatigory > 0 ? `category=${activeCatigory}` : '';
+        const search = searchValue > 0 ? `&search=${searchValue}` : '';
 
         fetch(`https://635fa0523e8f65f283b7781a.mockapi.io/items?page=${currentPage}&limit=4&${category}&sortBy=${sortBy}&order=${order}${search}`,
         )

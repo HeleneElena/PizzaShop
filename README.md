@@ -25,3 +25,7 @@ npm start - Starten
 Как запустить?
 npm i - установка зависимостей
 npm start - запуск
+
+How do I run it?
+npm i - install dependencies
+npm start - start up

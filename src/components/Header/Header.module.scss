@@ -1,0 +1,63 @@
+.header {
+    background-color: #EEC3FD;
+}
+
+.header_img {
+    width: 960px;
+    height: 280px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_title {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 60px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 16px;
+}
+
+.header_p {
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.header_btn {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: #C4C4C4;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.15));
+}
+
+.wrapper {
+    position: relative;
+}
+
+.svg {
+    position: absolute;
+    top: 40px;
+    left: 640px;
+    cursor: pointer;
+}
+
+.svg_user {
+    position: absolute;
+    top: 40px;
+    left: 720px;
+    cursor: pointer;
+}

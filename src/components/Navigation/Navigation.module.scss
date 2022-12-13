@@ -1,0 +1,23 @@
+.wrapper {
+    max-width: 1109px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nav {
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+}
+
+.nav:hover {
+    color: #EEC3FD;
+}
+
+a {
+    text-decoration: none;
+}

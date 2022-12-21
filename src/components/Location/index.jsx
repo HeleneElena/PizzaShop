@@ -4,7 +4,10 @@ import foto2 from '../../image/SwipeItem2.jpg';
 import foto3 from '../../image/Img3.jpg';
 import foto4 from '../../image/Img4.jpg';
 
+
 export const Location = () => {
+  const LIST = [foto1, foto2, foto3, foto4];
+
     return (
         <div className={style.wrapper}> 
           <h2>рекомендуемые локации</h2>
@@ -26,11 +29,17 @@ export const Location = () => {
           </div>
 
           <div className={style.wrapper}>
-            <img src={foto1} alt='foto location' />
-            <img src={foto2} alt='foto location' />
-            <img src={foto3} alt='foto location' />
-            <img src={foto4} alt='foto location' />
-          </div >
+            {
+              LIST.map((el, index) => {
+                return <img key={index}
+                             src={el} 
+                             alt='foto location' 
+                             className={style.img}
+                        />
+              })
+            }
+          </div>
+ 
         </div>
     );
 };

@@ -1,12 +1,25 @@
 import style from './Navigation.module.scss';
 
 export const Navigation = () => {
+
+    const MENU = [
+        { id: 1, value: 'События', link: 'events' },
+        { id: 2, value: 'Локации', link: 'locations' },
+        { id: 3, value: 'Маршруты', link: 'routes' },
+        { id: 4, value: 'Отдых', link: 'rest' },
+    ];
+
     return (
         <div className={style.wrapper}> 
-            <a className={style.nav} href="/events">События</a>
-            <a className={style.nav} href="/lokacions">Локации</a>
-            <a className={style.nav} href="/roads">Маршруты</a>
-            <a className={style.nav} href="/holiday">Отдых</a>
+            {
+                MENU.map((el, index) => {
+                return (
+                    <li key={index} className={style.nav}>
+                        <a href={`#${el.link}`}>{el.value}</a>
+                        </li>
+                );
+                })
+            }
         </div>
     );
 };

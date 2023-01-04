@@ -5,7 +5,7 @@ export const Events = () => {
 
     return (
         <div className={style.wrapper}>
-            <img src={eventBack} alt='events' />
+            <img src={eventBack} alt='events' width={1850} />
             <h2 className={style.title}>главные события этой недели</h2>
         </div>
     );

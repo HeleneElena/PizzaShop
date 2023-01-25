@@ -1,91 +1,69 @@
-// Write a function that takes a positive integer n, sums all the cubed 
-// values from 1 to n, and returns that sum.
-//Assume that the input n will always be a positive integer.
-function sumCubes(n){
-  let sum = 0;
-  for (let i = 1; i <=n; i++) {
-    sum += i**3;
-  }
-  return sum;
+// Rock Paper Scissors
+// Let's play! You have to return which player won! In case of a draw return Draw!
+const rps = (p1, p2) => {
+  let won = null;
+  
+  switch(p1) {
+  case "scissors":
+    if (p2 === "paper") {
+      won = 1;
+    } else if (p2 === "rock") {
+      won = 2;
+    }
+    break;
+  case "paper":
+    if (p2 === "scissors") {
+      won = 2;
+    } else if (p2 === "rock") {
+      won = 1;
+    }
+    break;
+  case "rock":
+    if (p2 === "scissors") {
+     won = 1;
+    } else if (p2 === "paper") {
+      won = 2;
+    }
+    break;
 }
+  
+  if (won != null) {
+    return `Player ${won} won!`;
+  } else {
+    return "Draw!";
+  }
+  };
 
-// A square of squares
-//You like building blocks. You especially like building blocks that are squares. 
-//And what you even like more, is to arrange them into a square of square building blocks!
-//However, sometimes, you can't arrange them into a square. Instead, you end up with
-// an ordinary rectangle! Those blasted things! If you just had a way to know, whether 
-// you're currently working in vain… Wait! That's it! You just have to check if your number of building blocks is a perfect square.
-let isSquare = function(n){
-  let x = Math.sqrt(n);
-  return x * x === n;
+  // The code provided is supposed replace all the dots . in the specified String str with dashes
+const replaceDots = function(str) { 
+  return str.replace(/\./g, '-');
 };
 
-// Write a function that accepts two integers and returns the remainder of dividing the larger value by the smaller value.
-// Division by zero should return NaN.
-function remainder(n, m){
-if (n > m) {
-    let answer = n % m;
-    if (m === 0) {
-      return NaN;
-    }
-    else {
-      return answer;
-    }
-  }
-  else if (m > n) {
-    let answer = m % n;
-    if (n === 0) {
-      return NaN;
-    }
-    else {
-      return answer;
-    }
-  }
-  else {
-    let answer = n % m;
-    return answer;
+// Implement a function called multiply, which takes two numbers and returns their product:
+let a = 2,
+    b = 3;
+function multiply(a,b) {
+  return a * b;
+}
+multiply(2.3);
+
+// Your boss decided to save money by purchasing some cut-rate optical character recognition 
+//software for scanning in the text of old novels to your database. At first it seems to capture 
+// words okay, but you quickly notice that it throws in a lot of numbers at random places in the text.
+function stringClean(s) {
+  return s.replace(/[0-9]/g, "" );
+}
+
+// Volume of a Cuboid
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height;
   }
 }
 
-// Given an array of integers.
-//Return an array, where the first element is the count of positives numbers 
-// and the second element is sum of negative numbers. 0 is neither positive nor negative.
-// If the input is an empty array or is null, return an empty array.
-function countPositivesSumNegatives(input) {
-   if (input && input.length) {
-        let posSum = 0;
-        let negSum = 0;
-        input.forEach(num => num > 0 ? posSum++ : negSum += num);
-        return [posSum, negSum];
-    } else {
-        return [];
-    }
-  }
-
-// Character recognition software is widely used to digitise printed texts. 
-// Thus the texts can be edited, searched and stored on a computer.
-// When documents (especially pretty old ones written with a typewriter), 
-//are digitised character recognition softwares often make mistakes.
-  function correct(s) {
-    let s1 = s.replace(/5/g, 'S');
-    let s2 = s1.replace(/0/g, 'O');
-    let s3 = s2.replace(/1/g, 'I');
-    return s3;
-}
-
-// There are pillars near the road. 
-// The distance between the pillars is the same and the width of the pillars is the same. Your function accepts three arguments:
-// number of pillars (≥ 1);
-// distance between pillars (10 - 30 meters);
-// width of the pillar (10 - 50 centimeters).
-// Calculate the distance between the first and the last pillar in centimeters
-// (without the width of the first and last pillar).
-function pillars(numPill, dist, width) {
-  if (numPill == 1) {
-    return 0;
-  } else if (numPill == 2) {
-    return dist * 100;
-  } else {
-    return ((dist * 100)* (numPill-1)) + (width * (numPill - 2));
-  }
+// Add new item (collections are passed by reference)
+function addExtra( listOfNumbers ){
+  let arr = [5];
+  let res = [...listOfNumbers, ...arr];
+  return res;
 }

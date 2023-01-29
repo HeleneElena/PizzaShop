@@ -1,6 +1,6 @@
 :root {
     --main-color: #fff;
-    --second-color: ##262626;
+    --second-color: #262626;
     --one-color: #00654E;
     --two-color: #006E55;
     --three-color: #005844;
@@ -52,4 +52,12 @@ ul {
 a {
     color: inherit; /* the colour will be inherited */
     text-decoration: none;
+}
+
+button, input {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
 }

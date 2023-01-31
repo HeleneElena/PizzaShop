@@ -1,7 +1,6 @@
 .navigation__list {
     display: flex;
     gap: 50px;
-    justify-content: space-between;
 }
 
 .navigation__link {

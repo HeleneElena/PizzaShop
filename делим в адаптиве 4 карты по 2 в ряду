@@ -1,0 +1,21 @@
+.features__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.features__card {
+    flex-basis: 236px;
+    text-align: center;
+    ...
+}
+
+@media (max-width: 760px) {
+    .features__cards {
+        flex-wrap: wrap;
+        justify-content: space-around; /* деление на ряд по две карты */
+        gap: 30px 50px; /* 30 горизонтально 50 вертикальное расст-е м/ду картами */ иначе будет по одной переноситься, без 50px
+    }
+...
+}
+

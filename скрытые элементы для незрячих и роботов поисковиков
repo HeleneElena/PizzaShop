@@ -1,0 +1,19 @@
+В каждой секции будет написано Наименование данной секции, но оно будет скрыто от обычного пользователя
+<section class="features">
+    <div class="container">
+        <h2 class="visually-hidden">Преимущества</h2>
+...        
+     
+
+/*  скрытый элемент на странице, для незрячих и роботов-поисковиков */
+.visually-hidden {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px); /* для старых браузеров */
+    clip: rect(1px, 1px, 1px, 1px); /* для новых браузеров */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}

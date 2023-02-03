@@ -1,0 +1,61 @@
+.features {
+    background-color: var(--second-bg-color);
+    padding: 42px 0;
+    color: var(----main-color)
+}
+
+.features__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.features__card {
+    flex-basis: 236px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+}
+
+@media (max-width: 1200px) {
+    .features__cards {
+        gap: 60px;
+    }
+
+    .features__card {
+        font-size: 16px;
+        flex-basis: 190px;
+    }
+
+}
+
+@media (max-width: 760px) {
+    .features__cards {
+        flex-wrap: wrap;
+        justify-content: space-around; /* деление на ряд по две карты */
+        gap: 30px 50px; /* 30 горизонтально 50 вертикальное расст-е м/ду картами */
+    }
+
+    .features__icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 580px) {
+    .features__cards {
+        gap: 40px 24px;
+    }
+
+    .features__card {
+        font-size: 12px;
+        flex-basis: 42%;
+    }
+
+    .features__icon {
+        width: 50px;
+        height: 50px;
+    }
+}

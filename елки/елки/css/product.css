@@ -1,0 +1,53 @@
+.product {
+    padding: 80px 0;
+    color: var(--main-color);
+    background-color: var(--main-bg-color);
+}
+
+/* на макете сначала карточка с более светлым цветом, потом с более темным, 3я еще темнее цвет фона */
+.product:nth-child(3n) {  /* каждый третий продукт */
+    background-color: var(--one-color);
+}
+
+.product:nth-child(3n + 1) { 
+    background-color: var(--two-color);
+}
+
+.product:nth-child(3n + 2) {
+    background-color: var(--three-color);
+}
+
+.product__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* на макете 1 карточка текст - фото, 2я карточка фото-текст, 3я текст-фото*/
+.product:nth-child(odd) { /* или (2n + 2), т.е. для каждой второй карточки */
+    flex-direction: row-reverse; /* перевернуть таблицу, две колонки наоборот*/
+}
+
+.product__content {
+
+}
+
+.product__description {
+
+}
+
+.product__button-wrapper {
+
+}
+
+.button__order {
+
+}
+
+.button__more {
+
+}
+
+.product__picture {
+
+}

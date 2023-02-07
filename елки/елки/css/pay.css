@@ -1,0 +1,40 @@
+.pay {
+    color: var(--main-color);
+}
+
+.pay__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+}
+
+.pay__list {
+    display: flex;
+}
+
+.pay__option_pay {
+
+} 
+
+.option-pay {
+
+}
+
+.option-pay__picture-wrapper {
+
+}
+
+.option-pay__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+}
+
+.option-pay__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;    
+    letter-spacing: 0.04em;
+}

@@ -24,7 +24,6 @@
 
 .option-pay__picture-wrapper {
     background-color: var(--main-color);
-    min-width: 300px;
     height: 146px;
     display: flex;
     align-items: center;
@@ -110,11 +109,14 @@
 
 @media (max-width: 760px) {
     .pay__title {
-        font-size: 30px;
+        font-size: 35px;
+        text-align: center;
     }
 
     .pay__list {
         flex-direction: column;
+        align-items: center;
+        gap: 45px;
     }
 
     .pay__item {
@@ -125,6 +127,6 @@
 
 @media (max-width: 580px) {
     .pay__title {
-        font-size: 28px;
+        font-size: 33px;
     }
 }

@@ -6,7 +6,7 @@
             <button class="burger header__burger">
                 <span class="burger__line"></span>
             </button>
-            <nav class="header__navigation navigation navigation_active">
+            <nav class="header__navigation navigation">
                 <ul class="navigation__list">
                     <li
             ...
@@ -80,3 +80,24 @@
         --height: 12px;
     }
 }
+
+navigation.css:
+@media (max-width: 1000px) {
+    .navigation {
+        display: none;
+        width: 100%;
+    }
+
+    .navigation_active {
+        display: block;
+    }
+    ...
+
+burger.js: 
+const burger = document.querySelector('.burger'),
+      navigation = document.querySelector('.navigation');
+
+burger.addEventListener('click', () => {
+    burger.classList.toggle('burger_active');
+    navigation.classList.toggle('navigation_active');
+});

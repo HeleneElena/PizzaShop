@@ -47,6 +47,10 @@
         width: 100%;
     }
 
+    .navigation_active {
+        display: block;
+    }
+
     .navigation__item {
         flex-basis: 146px;
     }

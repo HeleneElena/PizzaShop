@@ -14,9 +14,13 @@
 }
 
 .overlay_order {
-    display: flex;
+    display: none;
 }
 
 .overlay_active {
     display: flex;
+}
+
+.overlay_consultation {
+    display: none;
 }

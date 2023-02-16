@@ -124,7 +124,7 @@
                     <p class="product__description">Мягкий аромат, форма, и способность сохранять мягкие иголки в течение длительного времени, делают её одним из лучших деревьев для рождества</p>
 
                     <div class="product__button-wrapper">
-                        <button class="product__button button__order">Заказать</button>
+                        <button class="product__button button__order" data-order="Пихта Фразера">Заказать</button>
                         <a href="#" class="product__button button__more">Подробнее</a>
                     </div>
                 </div>
@@ -142,7 +142,7 @@
                     <p class="product__description">Отличительной особенностью русской ёлки являются выраженный хвойный запах, короткие колючие иголки и сравнительно менее пышная крона</p>
             
                     <div class="product__button-wrapper">
-                        <button class="product__button button__order">Заказать</button>
+                        <button class="product__button button__order" data-order="Русская ель">Заказать</button>
                         <a href="#" class="product__button button__more">Подробнее</a>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                     <p class="product__description">Хвоя Сибирской пихты в отличии от еловой крупнее, зеленее, совершенно не колючая и мягкая как трава</p>
             
                     <div class="product__button-wrapper">
-                        <button class="product__button button__order">Заказать</button>
+                        <button class="product__button button__order" data-order="Сибирская пихта">Заказать</button>
                         <a href="#" class="product__button button__more">Подробнее</a>
                     </div>
                 </div>
@@ -309,12 +309,12 @@
             <form class="modal__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
                 <label class="modal__label">
                     <span class="modal__label-text">ФИО</span>
-                    <input class="modal__input" type="text" placeholder="Введите ваше ФИО">
+                    <input required class="modal__input" type="text" placeholder="Введите ваше ФИО">
                 </label>
     
                 <label class="modal__label modal__label_end">
                     <span class="modal__label-text">Телефон</span>
-                    <input class="modal__input" type="tel" placeholder="Введите ваш номер телефона">
+                    <input required class="modal__input" type="tel" placeholder="Введите ваш номер телефона">
                 </label>
     
                 <input class="modal__consultation" type="hidden" name="consultation">

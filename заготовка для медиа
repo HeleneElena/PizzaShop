@@ -2,12 +2,33 @@
 
 @media (max-width: 1200px) {}
 
+@media (max-width: 1000px) {}
+
+@media (max-width: 760px) {}
+
+@media (max-width: 580px) {}
+
+Например:
+@media (max-width: 1440px) {
+    .container {
+        padding: 0 42px;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
 @media (max-width: 1000px) {
-    .navigation {
-        ...
+    .container {
+        padding: 0 39px;
     }
 }
 
 @media (max-width: 760px) {}
 
-@media (max-width: 580px) {}
+@media (max-width: 580px) {
+    .container {
+        padding: 0 10px;
+    }
+}

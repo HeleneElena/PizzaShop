@@ -1,11 +1,11 @@
-const modalProduct = document.querySelector('.modal_product');
-const modalProductImage = document.querySelector('.modal-product__image'),
-    modalProductDescription = document.querySelector('.modal-product__description'),
-    ingredientsList = document.querySelector('.ingredients__list'),
-    ingredientsCalories = document.querySelector('.ingredients__calories'),
-    modalProductPrice = document.querySelector('.modal-product__price'),
-    modalProductTitle = document.querySelector('.modal-product__title');
-
+import { modalProduct,
+    modalProductImage,
+    modalProductDescription,
+    ingredientsList,
+    ingredientsCalories,
+    productPriceCount,
+    modalProductTitle
+} from './elements.js';
 
 export const openModal = (product) => {
     modalProductTitle.textContent = product.title;
@@ -22,7 +22,7 @@ export const openModal = (product) => {
     ingredientsList.append(...ingredientsItems);
 
     ingredientsCalories.textContent = `${product.weight} г, ккал ${product.calories}`;
-    modalProductPrice.textContent = product.price;
+    productPriceCount.textContent = product.price;
 
     modalProduct.classList.add('modal_open');
 };

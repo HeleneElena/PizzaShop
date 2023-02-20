@@ -1,8 +1,9 @@
 import { openModal } from './openModal.js';
+import { createProductCard } from './createCardProduct.js';
+import { renderListProduct } from './renderListProduct.js';
 
 const modalProduct = document.querySelector('.modal_product'),
-      catalogList = document.querySelectorAll('.catalog__list');
-
+      catalogList = document.querySelector('.catalog__list');
 
 const product = {
     title: 'бургер Oppa-pa',
@@ -14,16 +15,10 @@ const product = {
     ingredients: ['brot', 'butter', 'chicken'],
 };
 
-
-
-
-
-catalogList.forEach(el => {
-    el.addEventListener('click', (e) => {
+catalogList.addEventListener('click', (e) => {
         if (e.target.closest('.product__image') || e.target.closest('.product__detail')) {
            openModal(product);
         }
-    });
 });
 
 modalProduct.addEventListener('click', (e) => {
@@ -31,3 +26,8 @@ modalProduct.addEventListener('click', (e) => {
         modalProduct.classList.remove('modal_open');
     }
 });
+
+const init = () => {
+    renderListProduct();
+};
+init();

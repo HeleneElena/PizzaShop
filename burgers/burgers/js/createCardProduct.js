@@ -1,6 +1,6 @@
-import { API_URL } from './const.js';
+import { API_URL } from "./const.js";
 
-export const createProductCard = (product) => {
+export const createCardProduct = (product) => {
     const li = document.createElement('li');
     li.classList.add('catalog__item');
     li.innerHTML = `

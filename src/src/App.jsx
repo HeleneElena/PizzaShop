@@ -1,6 +1,7 @@
+import { Catalog } from "./components/Catalog/Catalog";
+import { Footer } from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import { Navigation } from "./components/Navigation/Navigation";
-import { Section } from "./components/Section/Section";
 
 export const App = () => {
 
@@ -10,10 +11,10 @@ export const App = () => {
 
       <main>
         <Navigation />
-        <Section />
+        <Catalog />
       </main>
 
-      <footer></footer>
+      <Footer />
     </>
   )
 }

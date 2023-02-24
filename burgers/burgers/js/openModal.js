@@ -1,16 +1,16 @@
-import { modalProduct,
+import { modalProductTitle,
     modalProductImage,
     modalProductDescription,
-    ingredientsList,
     ingredientsCalories,
+    ingredientsList,
     productPriceCount,
-    modalProductTitle
-} from './elements.js';
+    modalProduct } from './elements.js';
 
 export const openModal = (product) => {
     modalProductTitle.textContent = product.title;
     modalProductImage.src = product.image;
     modalProductDescription.textContent = product.description;
+    ingredientsCalories.textContent = `${product.weight} г, ккал ${product.calories}`;
     ingredientsList.textContent = '';
 
     const ingredientsItems = product.ingredients.map(el => {
@@ -21,7 +21,6 @@ export const openModal = (product) => {
     });
     ingredientsList.append(...ingredientsItems);
 
-    ingredientsCalories.textContent = `${product.weight} г, ккал ${product.calories}`;
     productPriceCount.textContent = product.price;
 
     modalProduct.classList.add('modal_open');

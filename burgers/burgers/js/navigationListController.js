@@ -6,13 +6,13 @@ export const navigationListController = (cb) => {
 
         if (!category) return;
 
-        navigationItems.forEach(el => {
-            if (el === category) {
-                el.classList.add('navigation__button_active');
-                catalogTitle.textContent = el.textContent;
-                cb(el.dataset.category);
+        navigationItems.forEach(item => {
+            if (item === category) {
+                item.classList.add('navigation__button_active');
+                catalogTitle.textContent = item.textContent;
+                cb(item.dataset.category);
             } else {
-                el.classList.remove('navigation__button_active');
+                item.classList.remove('navigation__button_active');
             }
         });
     });

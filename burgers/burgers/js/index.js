@@ -1,3 +1,4 @@
+import { cartInit } from './cart.js';
 import { navigationListController } from './navigationListController.js';
 import { openModal } from './openModal.js';
 import { renderListProduct } from './renderListProduct.js';
@@ -32,5 +33,6 @@ modalProduct.addEventListener('click', (e) => {
 const init = () => {
     renderListProduct();
     navigationListController(renderListProduct);
+    cartInit();
 };
 init();

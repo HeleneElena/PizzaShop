@@ -3,7 +3,8 @@ import { catalogList,
     modalProductBtn,
     orderList, 
     orderCount,
-    countAmount } from './elements.js';
+    countAmount, 
+    orderTotalAmount} from './elements.js';
 import { API_URL, PREFIX_PRODUCT } from './const.js';
 
 const getCart = () => {
@@ -20,7 +21,9 @@ const renderCartList = async () => {
    const cartList = getCart();
    const allProductId = cartList.map(el => el.id);
 
-   const data = await getData(`${API_URL}${PREFIX_PRODUCT}?list=${allProductId}`);
+   const data = cartList.length 
+   ? await getData(`${API_URL}${PREFIX_PRODUCT}?list=${allProductId}`)
+   : [];
    const countProduct = cartList.reduce((acc, el) => acc + el.count, 0);
    orderCount.textContent = countProduct;
 
@@ -42,16 +45,22 @@ const renderCartList = async () => {
                 </div>
 
                 <div class="order__product-count count">
-                <button class="count__minus">-</button>
+                <button class="count__minus" data-id-product=${product.id}>-</button>
 
                 <p class="count__amount">${product.count}</p>
 
-                <button class="count__plus">+</button>
+                <button class="count__plus" data-id-product=${product.id}>+</button>
             </div>
         `;
         return li;
    });
    orderList.append(...cartItems);
+
+   // стоимость общая товара в корзине
+   orderTotalAmount.textContent = data.reduce((acc, el) => {
+     const product = cartList.find(cartItem => cartItem.id === el.id);
+     return acc + (el.price * product.count); 
+   }, 0);
 };
 
 const updateCartList = (cartList) => {
@@ -73,7 +82,14 @@ const addCart = (id, count = 1) => {
 };
 
 const removeCart = (id) => {
+   const cartList = getCart();
+   const productIndex = cartList.findIndex((el) => el.id === id);
+   cartList[productIndex].count -= 1;
    
+   if (cartList[productIndex].count === 0) {
+     cartList.splice(productIndex, 1);
+   } 
+   updateCartList(cartList);
 };
 
 const cartController = () => {
@@ -85,6 +101,19 @@ const cartController = () => {
 
    modalProductBtn.addEventListener('click', ({ target }) => {
         addCart(target.dataset.id, parseFloat(countAmount.textContent));
+   });
+
+   orderList.addEventListener('click', (e) => {
+        const targetPlus = e.target.closest('.count__plus');
+        const targetMinus = e.target.closest('.count__minus');
+
+        if (targetPlus) {
+          addCart(targetPlus.dataset.idProduct);
+        }
+
+        if (targetMinus) {
+          removeCart(targetMinus.dataset.idProduct);
+        }
    });
 };
 

@@ -4,7 +4,11 @@ import { catalogList,
     orderList, 
     orderCount,
     countAmount, 
-    orderTotalAmount} from './elements.js';
+    orderWrapTitle,
+    orderSubmit,
+    modalDelivery,
+    orderTotalAmount,
+    order} from './elements.js';
 import { API_URL, PREFIX_PRODUCT } from './const.js';
 
 const getCart = () => {
@@ -19,6 +23,10 @@ const getCart = () => {
 
 const renderCartList = async () => {
    const cartList = getCart();
+
+    // если в корзине нет товаров, запрещено открывать модальное окно с заказом= с формой
+    // кнопка будет заблокирована, если товара нет
+   orderSubmit.disabled = !cartList.length;
    const allProductId = cartList.map(el => el.id);
 
    const data = cartList.length 
@@ -61,6 +69,7 @@ const renderCartList = async () => {
      const product = cartList.find(cartItem => cartItem.id === el.id);
      return acc + (el.price * product.count); 
    }, 0);
+
 };
 
 const updateCartList = (cartList) => {
@@ -114,6 +123,21 @@ const cartController = () => {
         if (targetMinus) {
           removeCart(targetMinus.dataset.idProduct);
         }
+   });
+
+   // открытие и закрытие корзины на версиях менее 1024px
+   orderWrapTitle.addEventListener('click', () => {
+     order.classList.toggle('order_open');
+   });
+
+   orderSubmit.addEventListener('click', () => {
+     modalDelivery.classList.add('modal_open');
+   });
+
+   modalDelivery.addEventListener('click', (e) => {
+      if (e.target.closest('.modal__close') || e.target === modalDelivery) {
+          modalDelivery.classList.remove('modal_open');
+       }
    });
 };
 

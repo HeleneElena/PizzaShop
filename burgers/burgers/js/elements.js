@@ -20,3 +20,11 @@ export const countAmount = document.querySelector('.modal-product .count__amount
 export const orderCount = document.querySelector('.order__count'),
             orderList = document.querySelector('.order__list'),
             orderTotalAmount = document.querySelector('.order__total-amount');
+
+//fuer modal und < 1024px
+export const orderWrapTitle = document.querySelector('.order__wrap-title'),
+            order = document.querySelector('.order');
+
+// ModalWindow
+export const orderSubmit = document.querySelector('.order__submit'),
+            modalDelivery = document.querySelector('.modal_delivery');

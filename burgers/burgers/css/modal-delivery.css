@@ -8,7 +8,6 @@
   flex-direction: column;
   margin: 0 auto;
   height: 100%;
-  
 }
 
 .modal-delivery__title {
@@ -88,7 +87,7 @@
   }
 
   .modal-delivery__container {
-    margin: unset
+    margin: unset;
   }
 }
 

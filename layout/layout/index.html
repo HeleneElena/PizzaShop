@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProApple</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="./img/logo.jpg" alt="logo ProApple" class="header__logo">
+
+            <nav class="header__navigation navigation">
+                <ul class="navigation_list">
+                    <li class="navigation__item">
+                        <a href="#goods" class="navigation_link">Продукты</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#features" class="navigation_link">Характеристики</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__country country">
+                <button class="country__btn">Страны</button>
+                <ul class="country__list">
+                    <li class="country__item">
+                        <button class="country__btn">Russia, RUB</button>
+                </li>
+                    <li class="country__item">
+                        <button class="country__btn">USA, USD</button>
+                </li>
+                    <li class="country__item">
+                        <button class="country__btn">Germany, EURO</button>
+                </li>
+                    <li class="country__item">
+                        <button class="country__btn">Great Britain, GBP</button>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner__content">
+                <h1 class="banner__title">iPhone 14</div>
+                <h2 class="banner__subtitle">До конца скидок осталось</h2>
+                
+                <ul class="banner__timer timer">
+                    <li class="timer__item">
+                        <p class="timer__unit">364</p>
+                        <p class="timer__unit-description">дня</p>
+                    </li>
+                    <li class="timer__item">
+                        <p class="timer__unit">23</p>
+                        <p class="timer__unit-description">часа</p>
+                    </li>
+                    <li class="timer__item">
+                        <p class="timer__unit">35</p>
+                        <p class="timer__unit-description">минут</p>
+                    </li>
+                </ul>
+                <a href="#goods" class="banner__btn">Выбери свою модель</a>
+            </div>
+        </section>
+
+        <section class="goods">
+           <div class="container">
+            <p class="goods__tagline">Вы ждали этого</p>
+            <h2 class="goods__title">Все продукты новой линейки</h2>
+
+            <div class="goods__block">
+                <ul class="goods__list">
+                    <li class="goods__item">
+                        <article class="product">
+                            <div class="product__img-wrapper">
+                                <img class="product__img" src="./img/iPhone14-pro.jpg" alt="iPhone14-pro">
+                            </div>
+
+                            <div class="goods__info">
+                                <p class="product__title">iPhone 14 PRO</p>
+                                <p class="product__price">$1050</p>
+                            </div>
+
+                            <button href="#" class="product__more">Узнать больше</button>
+                        </article>
+                    </li>
+
+                    <li class="goods__item">
+                        <article class="product">
+                            <div class="product__img-wrapper">
+                                <img class="product__img" src="./img/iPhone14-pro.jpg" alt="iPhone14">
+                            </div>
+                    
+                            <div class="goods__info">
+                                <p class="product__title">iPhone 14</p>
+                                <p class="product__price">$799</p>
+                            </div>
+                    
+                            <button href="#" class="product__more">Узнать больше</button>
+                        </article>
+                    </li>
+
+                    <li class="goods__item">
+                        <article class="product">
+                            <div class="product__img-wrapper">
+                                <img class="product__img" src="./img/iPhone14-pro.jpg" alt="AirPods Pro">
+                            </div>
+                    
+                            <div class="goods__info">
+                                <p class="product__title">AirPods Pro</p>
+                                <p class="product__price">$249</p>
+                            </div>
+                    
+                            <button href="#" class="product__more">Узнать больше</button>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+           </div>
+        </section>
+
+        <section class="features"></section>
+    </main>
+    <footer class="footer"></footer>
+</body>
+</html>

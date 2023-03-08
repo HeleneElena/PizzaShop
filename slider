@@ -1,55 +1,58 @@
 <section class="goods">
    <div class="container">
-    <p class="goods__tagline">Вы ждали этого</p>
-    <h2 class="goods__title">Все продукты новой линейки</h2>
+   <p class="goods__tagline">Вы ждали этого</p>
+   <h2 class="goods__title">Все продукты новой линейки</h2>
 
-    <div class="goods__block">
-        <ul class="goods__list">
-            <li class="goods__item">
-                <article class="product">
-                    <div class="product__img-wrapper">
-                        <img class="product__img" src="./img/iPhone14-pro.jpg" alt="iPhone14-pro">
-                    </div>
+   <div class="goods__block">
+    <ul class="goods__list">
+        <li class="goods__item">
+            <article class="product">
+                <div class="product__img-wrapper">
+                    <img class="product__img" src="./img/iPhone14-pro.jpg" alt="iPhone14-pro">
+                </div>
 
-                    <div class="goods__info">
-                        <p class="product__title">iPhone 14 PRO</p>
-                        <p class="product__price">$1050</p>
-                    </div>
+                <div class="goods__info">
+                    <p class="product__title">iPhone 14 PRO</p>
+                    <p class="product__price">$1050</p>
+                </div>
 
-                    <button href="#" class="product__more">Узнать больше</button>
-                </article>
-            </li>
+                <button href="#" class="product__more">Узнать больше</button>
+            </article>
+        </li>
 
-            <li class="goods__item">
-                <article class="product">
-                    <div class="product__img-wrapper">
-                        <img class="product__img" src="./img/iPhone14-pro.jpg" alt="iPhone14">
-                    </div>
+        <li class="goods__item">
+            <article class="product">
+                <div class="product__img-wrapper">
+                    <img class="product__img" src="./img/iPhone14-pro.jpg" alt="iPhone14">
+                </div>
 
-                    <div class="goods__info">
-                        <p class="product__title">iPhone 14</p>
-                        <p class="product__price">$799</p>
-                    </div>
+                <div class="goods__info">
+                    <p class="product__title">iPhone 14</p>
+                    <p class="product__price">$799</p>
+                </div>
 
-                    <button href="#" class="product__more">Узнать больше</button>
-                </article>
-            </li>
+                <button href="#" class="product__more">Узнать больше</button>
+            </article>
+        </li>
 
-            <li class="goods__item">
-                <article class="product">
-                    <div class="product__img-wrapper">
-                        <img class="product__img" src="./img/iPhone14-pro.jpg" alt="AirPods Pro">
-                    </div>
+        <li class="goods__item">
+            <article class="product">
+                <div class="product__img-wrapper">
+                    <img class="product__img" src="./img/iPhone14-pro.jpg" alt="AirPods Pro">
+                </div>
 
-                    <div class="goods__info">
-                        <p class="product__title">AirPods Pro</p>
-                        <p class="product__price">$249</p>
-                    </div>
+                <div class="goods__info">
+                    <p class="product__title">AirPods Pro</p>
+                    <p class="product__price">$249</p>
+                </div>
 
-                    <button href="#" class="product__more">Узнать больше</button>
-                </article>
-            </li>
-        </ul>
-    </div>
+                <button href="#" class="product__more">Узнать больше</button>
+            </article>
+        </li>
+    </ul>
+
+    <button class="goods__arrow goods__arrow-pre"></button>
+    <button class="goods__arrow goods__arrow-next"></button>
    </div>
- </section>
+   </div>
+</section>

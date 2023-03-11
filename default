@@ -53,3 +53,15 @@ button {
     background-color: transparent;
     border: none;
 }
+
+@media (max-width: 1024px) { /* смотреть по макету */
+    .container {
+        padding: 0 77px;
+    }
+}
+
+@media (max-width: 768px) {   /* смотреть по макету */
+    .container {
+        padding: 0 34px;
+     }
+}

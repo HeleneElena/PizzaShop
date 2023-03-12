@@ -3,6 +3,8 @@
     gap: 50px;
 }
 
-.navigation__item {}
-
-.navigation_link {}
+@media (max-width: 1024px) {
+    .navigation__list {
+        gap: 84px;
+    }
+}

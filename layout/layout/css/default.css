@@ -8,27 +8,37 @@ html {
     box-sizing: inherit;
 }
 
-img, svg {
+img,
+svg {
     max-width: 100%;
     height: auto;
     max-height: 100%;
 }
 
 body {
-    font-family: 'SF UI Display', sans-serif;
+    font-family: 'Playfair Display', serif;
+    /* по конкретному макету шрифт и второй всегда как запасной */
     min-width: 320px;
     font-size: 16px;
     font-weight: 400;
+    background-color: #0B1D26;
+    background-image: url('../img/BG.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: #fff;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
     margin: 0;
 }
 
 .container {
-    max-width: 1324px; /* по конкретному макету 1170 + 30px pagging!! */
+    max-width: 1492px;
+    /* по конкретному макету 1170 + 30px pagging!! */
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 80px;
 }
 
 ul {
@@ -38,7 +48,8 @@ ul {
 }
 
 a {
-    color: inherit; /* the colour will be inherited */
+    color: inherit;
+    /* the colour will be inherited */
     text-decoration: none;
 }
 
@@ -56,12 +67,12 @@ button {
 
 @media (max-width: 1024px) {
     .container {
-        padding: 0 77px;
+        
     }
 }
 
 @media (max-width: 768px) {
     .container {
-        padding: 0 34px;
-     }
+
+    }
 }

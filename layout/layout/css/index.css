@@ -1,0 +1,27 @@
+@import 'normalize.css';
+@import 'default.css';
+@import 'header.css';
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    src: url('../fonts/PlayfairDisplay-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 300;
+    src: url('../fonts/PlayfairDisplay-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    src: url('../fonts/PlayfairDisplay-SemiBold.ttf');
+}

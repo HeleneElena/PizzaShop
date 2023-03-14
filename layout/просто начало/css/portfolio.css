@@ -1,0 +1,41 @@
+.portfolio {
+    padding: 80px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.portfolio__title {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.portfolio__cards {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+    padding: 20px;
+}
+
+.card__title {
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+
+.card__text {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000000;
+    text-align: left;
+}

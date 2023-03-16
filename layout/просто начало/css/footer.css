@@ -1,0 +1,53 @@
+.footer {
+    background: #1E4776;
+    padding-top: 45px;
+    padding-bottom: 104px;
+    color: white;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;;
+    gap: 30px;
+}
+
+.footer__copyright {
+    line-height: 1.3;
+}
+
+.name {
+    margin-bottom: 15px;   
+    font-weight: 700;
+    font-size: 28px;
+    color: #7E9EC9;
+    text-align: left;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 15px;
+    color: #7E9EC9;
+}
+
+.social__list {
+    display: flex;
+    gap: 30px;
+}
+
+.sozial__icon {
+
+}
+
+.footer__content {
+
+}
+
+.footer__btn {
+
+}
+
+.footer__content-text{
+
+}

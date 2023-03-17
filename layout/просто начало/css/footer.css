@@ -11,6 +11,11 @@
     gap: 30px;
 }
 
+.footer__col {
+    max-width: 350px;
+    flex-grow: 1;
+}
+
 .footer__copyright {
     line-height: 1.3;
 }
@@ -36,18 +41,20 @@
     gap: 30px;
 }
 
-.sozial__icon {
-
-}
-
-.footer__content {
-
-}
-
 .footer__btn {
-
+    padding: 15px 30px;
+    background: #1E4776;
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
-.footer__content-text{
-
+.footer__content-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #7E9EC9;
 }

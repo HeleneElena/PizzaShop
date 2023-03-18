@@ -21,6 +21,20 @@
 .card {
     box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
     padding: 20px;
+    transition: transform 0.5s ease-in;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card__link {
+    transition: color 0.5s ease-in;
+}
+
+.card__link:hover {
+    color: #275BEC;
+    display: block;
 }
 
 .card__title {
@@ -35,4 +49,5 @@
     line-height: 130%;
     color: #000000;
     text-align: left;
+    padding-left: 20px;
 }

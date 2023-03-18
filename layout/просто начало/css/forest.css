@@ -23,17 +23,19 @@
     line-height: 1.5;
     text-align: center;
     color: #000000;
-    max-width: 700px;
+    max-width: 730px;
     flex-grow: 1;
+    margin: 0 auto;
+    margin-bottom: 15px;
 }
 
-.forest__link {
-    margin-top: 15px;
+.forest__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     color: #000000;
+    margin-bottom: 60px;
 }
 
 .forest__btn {
@@ -46,6 +48,12 @@
     border-radius: 50px;
     padding: 20px 30px;
     background-color: #fff;
+}
+
+.forest__btn:hover {
+    background-color: #1b43b3;
+    color: #fff;
+    border: 3px solid #1b43b3;
 }
 
 .forest__btn_arrow {

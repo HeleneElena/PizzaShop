@@ -51,6 +51,18 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 16px;
+    transition: all 0.3s ease-in;
+}
+
+.footer__btn:hover {
+    background: #fff;
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #1E4776;
+    margin-bottom: 16px;
 }
 
 .footer__content-text {

@@ -20,8 +20,10 @@ body {
 }
 
 .container {
-    max-width: 1110px;
+    max-width: 1140px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 ul {
@@ -56,7 +58,6 @@ a {
 
 h1, p {
     color: white;
-    font-size: 18px;
 }
 
 .header__title {
@@ -84,4 +85,41 @@ h1, p {
     left: 50%;
     transform: translate(-50%, 0);
     bottom: 30px;
+}
+
+@media (max-width: 760px) {
+    .header__title {
+        font-size: 44px;
+        margin-bottom: 18px;
+    }
+    .header__text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 580px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header__title {
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+
+    .arrow {
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .arrow {
+        bottom: 5px;
+        width: 24px;
+        height: 24px;
+    }
 }

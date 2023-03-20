@@ -56,6 +56,6 @@
     border: 3px solid #1b43b3;
 }
 
-.forest__btn_arrow {
+@media (max-width: 580px) {}
 
-}
+@media (max-width: 320px) {}

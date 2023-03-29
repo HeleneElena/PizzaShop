@@ -1,0 +1,59 @@
+.header {
+    background-color: #7592A3;
+    padding-top: 28px;
+    padding-bottom: 27px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    gap: 24px;
+}
+
+.city {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.telefon {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.logo {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.kabinet {
+    display: flex;
+    gap: 10px;
+}
+
+.btn__basket {
+     width: 32px;
+    height: 32px;
+}
+
+.count {
+    margin-left: -10px;
+}
+
+.user__btn, .user {
+    color: #fff;
+}
+
+

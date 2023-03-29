@@ -1,0 +1,26 @@
+.navigation {
+    padding-top: 18px;
+    padding-bottom: 83px;
+}
+
+.container__navigation {
+    justify-content: right;
+}
+
+.navigation__list {
+    display: flex;
+    
+    align-items: center;
+    gap: 50px;
+    order: 1;
+    flex-grow: 0;
+}
+
+.navigation__icon {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #00BA24;
+}
+

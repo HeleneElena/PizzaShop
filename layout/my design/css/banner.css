@@ -1,0 +1,55 @@
+.banner {
+    padding-top: 60px;
+    padding-bottom: 114px;
+}
+
+.banner__container {
+    display: block;
+}
+
+.banner__title {
+    font-family: 'Bad Script';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 95px;
+    text-transform: uppercase;
+    color: #F72D39;
+    text-align: center;
+}
+
+.banner__subtitle {
+    font-family: 'Bad Script';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 126px;
+    text-transform: uppercase;
+    color: #5F8B63;
+    text-align: center;
+    margin-top: 21px;
+    margin-bottom: 31px;
+}
+
+.banner__text {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #6B5E98;
+    text-align: center;
+    margin-bottom: 180px;
+}
+
+.banner__btn {
+    background: #00BA24;
+    border-radius: 50px;
+    padding: 22px 111px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    margin: 0 auto;
+    align-items:center;
+}

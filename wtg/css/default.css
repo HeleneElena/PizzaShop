@@ -1,0 +1,74 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+
+body {
+    font-family: 'Inter', serif;
+    /* по конкретному макету шрифт и второй всегда как запасной */
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #CCEFFC;
+    color: #fff;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1190px;
+    /* по конкретному макету 1170 + 30px pagging!! */
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    /* the colour will be inherited */
+    text-decoration: none;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+
+    }
+}

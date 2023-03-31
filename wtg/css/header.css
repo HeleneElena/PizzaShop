@@ -1,0 +1,40 @@
+.header {
+    padding-top: 50px;
+    padding-bottom: 326px;
+    width: 100%;
+    height: 100vh;
+    background: url('../img/Rectangl.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logotype {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #19F6FA;
+}
+
+.btn__basket {
+    width: 32px;
+    height: 32px;
+}
+
+.count {
+    margin-left: -10px;
+}
+
+.user__btn, .user {
+    color: #fff;
+}
+
+.header__kabinet {
+    margin-left: 20px;
+}
+

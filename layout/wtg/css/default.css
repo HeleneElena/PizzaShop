@@ -20,8 +20,8 @@ body {
     /* по конкретному макету шрифт и второй всегда как запасной */
     font-size: 16px;
     font-weight: 400;
-    background-color: #CCEFFC;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 h1,

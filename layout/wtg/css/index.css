@@ -3,6 +3,7 @@
 @import 'header.css';
 @import 'navigation.css';
 @import 'banner.css';
+@import 'location.css';
 
 @font-face {
     font-family: 'Bad Script';

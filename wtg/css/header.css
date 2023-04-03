@@ -5,6 +5,7 @@
     height: 100vh;
     background: url('../img/Rectangl.jpg') no-repeat center;
     background-size: cover;
+    color: #fff;
 }
 
 .container {
@@ -36,5 +37,45 @@
 
 .header__kabinet {
     margin-left: 20px;
+}
+
+.header__content {
+    text-align: center;
+}
+
+.header__title {
+    margin-top: 107px;
+    margin-bottom: 42px;
+    font-family: 'Caveat', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 123%;
+}
+
+.header__subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 99px;
+}
+
+.header__form {
+    position: relative;
+}
+
+.header__form-search {
+    width: 760px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 32px;
+}
+
+
+.header__search {
+    position: absolute;
+    top: 506px;
+    right: 580px;
 }
 

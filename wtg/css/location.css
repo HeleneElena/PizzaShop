@@ -1,0 +1,68 @@
+.location {
+    padding-top: 132px;
+    padding-bottom: 155px;
+}
+
+.container-location {
+    display: block;
+    gap: 40px;
+}
+
+.title {
+    margin-bottom: 74px;
+    font-family: 'Caveat';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 81px;
+    text-align: center;
+}
+
+.location__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.location__card {
+    position: relative;
+}
+
+.location__card-img {
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.location__card-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #232323;
+    text-align: center;
+}
+
+.location__raiting {
+    width: 68px;
+    height: 28px;
+    background-color: #fff;
+    position: absolute;
+    top: 19px;
+    left: 22px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+.location__card-raiting {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.raiting__star {
+    width: 22px;
+    height: 22px;
+}

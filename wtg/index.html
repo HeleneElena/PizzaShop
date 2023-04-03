@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>полезные завтраки с пастой</title>
+    <title>Travel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
@@ -33,8 +36,103 @@
                     <img src="./img/basket.svg" alt="user" class="header__icon">
                 </div>
             </div>
-            
         </div>
+        <div class="header__content">
+                <h1 class="header__title">Отдых, который подойдет именно вам</h1>
+                <p class="header__subtitle">Места в которые вам хочется вернуться</p>
+                <form action="" method="get">
+                    <input class="header__form-search" name="s" placeholder="найди свой уголок" type="search">
+                    <button type="submit">
+                        <img class="header__search" src="./img/search.svg" alt="search">
+                    </button>
+                </form>
+            </div>
    </header>
+
+   <section class="location">
+        <div class="container container-location">
+            <h2 class="title">Рекомендуемые локации</h2>
+            <div class="location__cards">
+                <div class="location__card">
+                    <img src="./img/card12.jpg" alt="" class="location__card-img">
+                    <p class="location__card-title">Парк Central</p>
+                    <div class="location__raiting">
+                        <span class="location__card-raiting">4.8</span>
+                        <img src="./img/stern.svg" alt="card" class="raiting__star">
+                    </div>
+                </div>
+
+                <div class="location__card">
+                    <img src="./img/card4.jpg" alt="" class="location__card-img">
+                    <p class="location__card-title">Плато Лаго</p>
+                    <div class="location__raiting">
+                        <span class="location__card-raiting">4.8</span>
+                        <img src="./img/stern.svg" alt="card" class="raiting__star">
+                    </div>
+                </div>
+
+                <div class="location__card">
+                    <img src="./img/card3.png" alt="" class="location__card-img">
+                    <p class="location__card-title">Водопады</p>
+                    <div class="location__raiting">
+                        <span class="location__card-raiting">4.7</span>
+                        <img src="./img/stern.svg" alt="card" class="raiting__star">
+                    </div>
+                </div>
+
+                <div class="location__card">
+                    <img src="./img/card1.png" alt="" class="location__card-img">
+                    <p class="location__card-title">Скала Парус</p>
+                    <div class="location__raiting">
+                        <span class="location__card-raiting">4.9</span>
+                        <img src="./img/stern.svg" alt="card" class="raiting__star">
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <section class="events">
+       <div class="container container__events">
+            <h2 class="title">Главные события недели</h2>
+            <div class="event__wrapper">
+                <div class="event__content">
+                    <p class="events__subtitle">New Star Camp</p>
+                    <p class="events__text">Уже в 12-й раз в Сочи пройдет New Star Camp — несколько дней настоящего счастья, где соединяются спорт, музыка, закаты, рассветы 
+                        и атмосфера ежедневного праздника. Это прекрасный фестиваль не только для тех, кто по уши влюблен в снег и покатушки: мероприятие понравится и тому, 
+                        кто без ума от классных тусовок, ярких людей, неординарных личностей и новой музыки! Тусовщики, которым стало тесно в каменных джунглях города, вам сюда!</p>
+
+                    <ul class="events__list">
+                        <div class="list__wrapper">
+                            <span class="event__span"></span>
+                            <li class="events__item">Адрес: г. Сочи, Роза Хутор</li>
+                        </div>
+                        <div class="list__wrapper">
+                            <span class="event__span"></span>
+                            <li class="events__item">Цена: от 33 500 руб.</li>
+                        </div>
+                    </ul>
+
+                    <ul class="events__list">
+                        <div class="list__wrapper">
+                            <span class="event__span"></span>
+                            <li class="events__item">Дата: 30 марта — 2 апреля</li>
+                            </div>
+                        <div class="list__wrapper">
+                            <span class="event__span event__span-last"></span>
+                            <li class="events__item">Возраст: от 16 лет</li>
+                        </div>
+                    </ul>
+
+                    <div class="event__btn">
+                        <a href="#" class="events__link">Подробнее</a>
+                    </div>
+                </div>
+                <div class="event__img">
+                    <img src="./img/Camp.jpg" alt="New Star Camp">
+                </div>
+            </div>
+       </div>
+   </section>
 </body>
 </html>

@@ -1,0 +1,33 @@
+.container-routes {
+    display: block;
+    padding-bottom: 167px;
+}
+
+.routes__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60;
+}
+
+.routes__card {
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #232323;
+}
+
+.routes__img {
+    max-width: 280px;
+    height: 270px;
+}
+
+.routes__img-middle {
+    max-width: 280px;
+    height: 348px;
+}
+
+.routes__title {
+
+}

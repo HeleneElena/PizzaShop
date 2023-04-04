@@ -4,6 +4,8 @@
 @import 'navigation.css';
 @import 'banner.css';
 @import 'location.css';
+@import 'events.css';
+@import 'routes.css';
 
 @font-face {
     font-family: 'Bad Script';

@@ -1,0 +1,60 @@
+.holiday {
+    padding-top: 90px;
+    padding-bottom: 138px;
+    background-color: #0D8F91;
+    color: #fff;
+}
+
+.container-holiday {
+    display: block;
+}
+
+.holiday__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    padding: 9px 147px 9px 148px;
+    text-align: center;
+    margin-bottom: 17px;
+    max-width: 360px;
+}
+
+.holiday__input {
+    padding: 9px 8px 9px 44px;
+}
+
+.item__last {
+    margin-top: -6px;
+}
+
+.input__date {
+    margin-right: 25px;
+    width: 195.7px;
+}
+
+.holiday__item {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.holiday__list {
+    padding: 11px 0 0 0;
+}
+
+.holiday__btn {
+    background: #FFFFFF;
+    border: 1px solid #0D8F91;
+    box-shadow: 0px 4px 6px rgba(31, 30, 30, 0.25);
+    border-radius: 10px;
+    padding: 13px 64px;
+    text-align: center;
+    margin-top: 24px;
+}

@@ -1,0 +1,83 @@
+.header {
+    padding-top: 24px;
+    padding-bottom: 139px;
+}
+
+.container {
+    max-width: 1190px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.header__content {
+    max-width: 536px;
+}
+
+.header__title {
+    font-family: 'Yeseva One';
+    font-weight: 380;
+    font-size: 48px;
+    line-height: 65px;
+    letter-spacing: 0.095em;
+    text-transform: uppercase;
+    color: #8B583F;
+    text-align: left;
+}
+
+
+.header__text {
+    margin-top: 40px;
+    margin-bottom: 58px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.3%;
+    letter-spacing: 0.095em;
+    color: #241C1A;
+    text-align: left;
+}
+
+.header__btn {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #F2A51D;
+    border-radius: 10px;
+    width: 321px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__fotos {
+    display: flex;
+    position: relative;
+}
+
+.header__foto1 {
+    margin-right: 26px;
+    position: relative;
+}
+
+.header__foto2 {
+    margin-top: 67px;
+}
+
+.pechat {
+    position: absolute;
+    left: -52px;
+    top: 164px;
+}
+

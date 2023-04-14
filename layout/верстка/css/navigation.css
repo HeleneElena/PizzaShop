@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 139px;
+    margin-top: 0;
+    padding-top: 40px;
 }
 
 .logo {
@@ -11,12 +12,6 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 27px;
-    color: #351C13;
-}
-
-.familia {
-    margin-top: -40px;
-    margin-left: 70px;
 }
 
 .header__list {
@@ -30,10 +25,22 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    color: #351C13;
 }
 
 .header__contacts {
     display: flex;
     gap: 10px;
 }
+
+ .backet {
+    width: 25px;
+    height: 25px;
+    fill: #fff;
+}
+
+.search {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+

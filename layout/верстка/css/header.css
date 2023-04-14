@@ -1,83 +1,60 @@
 .header {
-    padding-top: 24px;
-    padding-bottom: 139px;
+    background: url('../img/bg-header.jpg') no-repeat top;
+    margin-top: -10px;
+    color: #fff;
+    height: 800px;
 }
 
 .container {
-    max-width: 1190px;
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 24px;
+    padding-bottom: 120px;
 }
 
-.header__content {
-    max-width: 536px;
+.title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 110%;
+    width: 537px;
+    height: 162px;
 }
 
-.header__title {
-    font-family: 'Yeseva One';
-    font-weight: 380;
+.foto-detektiv {
+    margin-top: -97px;
+
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 69px;
+    gap: 10px;
+    background: #F9D581;
+    border: 1px solid #F4D3A0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #0B727D;
+    margin-left: 70px;
+}
+
+.hielfe {
+    font-weight: 400;
     font-size: 48px;
-    line-height: 65px;
-    letter-spacing: 0.095em;
-    text-transform: uppercase;
-    color: #8B583F;
-    text-align: left;
+    line-height: 56px;
+    margin-left: -350px;
+    margin-top: 20px;
 }
 
-
-.header__text {
-    margin-top: 40px;
-    margin-bottom: 58px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 159.3%;
-    letter-spacing: 0.095em;
-    color: #241C1A;
-    text-align: left;
-}
-
-.header__btn {
-    display: flex;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #000000;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: #F2A51D;
-    border-radius: 10px;
-    width: 321px;
-    align-items: center;
-    justify-content: center;
-}
-
-.header__fotos {
-    display: flex;
-    position: relative;
-}
-
-.header__foto1 {
-    margin-right: 26px;
-    position: relative;
-}
-
-.header__foto2 {
-    margin-top: 67px;
-}
-
-.pechat {
-    position: absolute;
-    left: -52px;
-    top: 164px;
-}
 

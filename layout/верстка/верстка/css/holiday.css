@@ -1,0 +1,40 @@
+.holiday {
+    padding-top: 101px;
+    padding-bottom: 122px;
+}
+
+.holiday__content {
+
+}
+
+.holiday__title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 103%;
+}
+
+.holiday__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: #232323;
+    margin-top: 29px;
+    margin-bottom: 71px;
+}
+
+.holiday__btn {
+    background: #0D8F91;
+    box-shadow: 0px 4px 10px #D9D9D9;
+    border-radius: 10px;
+    font-weight: 700;
+    padding: 16px 64px;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+}
+
+.holiday__img {
+
+}

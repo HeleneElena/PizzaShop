@@ -1,0 +1,46 @@
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+.logo {
+    font-family: 'Cookie';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.header__contacts {
+    display: flex;
+    gap: 10px;
+}
+
+ .backet {
+    width: 25px;
+    height: 25px;
+    fill: #fff;
+}
+
+.search {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+

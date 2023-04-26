@@ -1,59 +1,84 @@
 .header {
-    background: url('../img/bg-header.jpg') no-repeat top;
-    margin-top: -10px;
-    color: #fff;
+    background-color: #F9F8F6;
+    margin-bottom: 88px;
+    display: flex;
+}
+
+.navigation {
+    background-color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 27px;
+}
+
+.menu {
+    display: flex;
+    gap: 37px;
+    text-align: center;
+    justify-content: left;
+}
+
+.menu__item {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    color: #574E56;
+}
+
+.header__content {
+    margin-left: -300px;
+}
+
+.header__title {
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 102px;
+    color: #574E56;
+    margin-top: 217px;
+    margin-bottom: 25px;
+    max-width: 429px;
+}
+
+.header__subtitle {
+    margin-bottom: 63px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.06em;
+    color: #574E56;
+}
+
+.header__video {
+    display: flex;
+}
+
+.header__btn {
+    display: flex;
+    cursor: pointer;
+}
+
+.header__presentation-play {
+    margin-left: -30px;
+    margin-right: 23px;
+}
+
+.header__presentation-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 60px;
+}
+
+.header__presentation-text:hover {
+    color: #D9BC94;
+}
+
+.header-image {
+    width: 690px;
     height: 800px;
+    margin-top: -100px;
 }
 
-.container {
-    max-width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 120px;
-}
-
-.title {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 110%;
-    width: 537px;
-    height: 162px;
-}
-
-.foto-detektiv {
-    margin-top: -97px;
-
-}
-
-.btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 49px;
-    background: #F9D581;
-    border: 1px solid #F4D3A0;
-    font-weight: 500;
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #0B727D;
-    margin-top: 243px;
-}
-
-.hielfe {
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
-    margin-left: -350px;
-    margin-top: 150px;
-    margin-left: 120px;
-}
 
 

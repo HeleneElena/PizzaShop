@@ -1,22 +1,5 @@
-.footer {
-    padding-top: 71px;
-    padding-bottom: 78px;
-    background-color: #0D8F91;
-    color: #fff;
+.footer__content {
+    text-align: center;
+    margin-top: 51px;
+    margin-bottom: 51px;
 }
-
-.logo {
-    margin-bottom: 31px;
-}
-
-.footer__social {
-    margin-top: 67px;
-}
-
-.list__social {
-    display: flex;
-    gap: 11px;
-    align-items: center;
-    justify-content: end;
-}
-

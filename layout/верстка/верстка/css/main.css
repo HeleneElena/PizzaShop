@@ -1,0 +1,47 @@
+
+.main {
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background: url('../img/fonMain.jpg') no-repeat center center;
+}
+
+.main__h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 117px;
+    text-transform: uppercase;
+    color: #333333;
+    max-width: 913px;
+}
+
+span {
+    color: #3500B5;
+}
+.main__text {
+    max-width: 400px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 78px;
+    margin-bottom: 42px;
+}
+
+.main__btn {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 24px 52px;
+    border: 1px solid #FF6B6E;
+    border-radius: 12px;
+    background: #FFFFFF;
+}
+
+.main__btn:hover {
+    border: 1px solid #FBD2BB;
+    background: #FBD2BB;
+    color: #fff;
+}

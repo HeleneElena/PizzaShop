@@ -1,84 +1,39 @@
 .header {
-    background-color: #F9F8F6;
-    margin-bottom: 88px;
-    display: flex;
+    padding-top: 61px;
+    padding-bottom: 20px;
 }
 
 .navigation {
-    background-color: #FFFFFF;
-    padding-top: 30px;
-    padding-bottom: 27px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.menu {
+.logo {
+    font-weight: 700;
+    font-size: 16px;
+    color: #3500B5;
+}
+
+.menu__list {
     display: flex;
-    gap: 37px;
+    justify-content: space-between;
     text-align: center;
-    justify-content: left;
+    gap: 40px;
 }
 
 .menu__item {
     font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    letter-spacing: 0.06em;
-    color: #574E56;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #333333;
 }
 
-.header__content {
-    margin-left: -300px;
+.user__phone {
+    margin-right: 10px;
 }
 
-.header__title {
-    font-weight: 400;
-    font-size: 80px;
-    line-height: 102px;
-    color: #574E56;
-    margin-top: 217px;
-    margin-bottom: 25px;
-    max-width: 429px;
-}
-
-.header__subtitle {
-    margin-bottom: 63px;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 15px;
-    letter-spacing: 0.06em;
-    color: #574E56;
-}
-
-.header__video {
-    display: flex;
-}
-
-.header__btn {
-    display: flex;
-    cursor: pointer;
-}
-
-.header__presentation-play {
-    margin-left: -30px;
-    margin-right: 23px;
-}
-
-.header__presentation-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-    margin-top: 60px;
-}
-
-.header__presentation-text:hover {
-    color: #D9BC94;
-}
-
-.header-image {
-    width: 690px;
-    height: 800px;
-    margin-top: -100px;
-}
 
 
 

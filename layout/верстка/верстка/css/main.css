@@ -1,47 +1,51 @@
-
 .main {
-    padding-top: 50px;
-    padding-bottom: 200px;
-    background: url('../img/fonMain.jpg') no-repeat center center;
+    margin-bottom: 104px;
 }
 
-.main__h1 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 86px;
-    line-height: 117px;
-    text-transform: uppercase;
-    color: #333333;
-    max-width: 913px;
+.main__container {
+    display: flex;
 }
 
-span {
-    color: #3500B5;
+.main__content {
+
 }
-.main__text {
-    max-width: 400px;
+
+.main__title {
+    font-family: 'Sverdlovsk';
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #333333;
-    margin-top: 78px;
-    margin-bottom: 42px;
+    font-size: 128px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.haup__title {
+    margin-top: 0;
+    margin-left: 84px;
+    margin-bottom: 127px;
 }
 
 .main__btn {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
+   cursor: pointer;
+   width: 150px;
+    height: 234.26px;
+    background: #AADCD9;
+    transform: rotate(87.01deg);
+    border-radius: 100px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
     text-transform: uppercase;
-    color: #333333;
-    padding: 24px 52px;
-    border: 1px solid #FF6B6E;
-    border-radius: 12px;
-    background: #FFFFFF;
+    padding: 36px 63px;
 }
 
-.main__btn:hover {
-    border: 1px solid #FBD2BB;
-    background: #FBD2BB;
-    color: #fff;
+.btn__img {
+
+}
+
+.main__foto {
+
+}
+
+.main__elena {
+
 }

@@ -1,38 +1,30 @@
 .header {
-    padding-top: 61px;
-    padding-bottom: 20px;
+    margin-top: 71px;
+    margin-bottom: 27px;
 }
 
-.navigation {
+.header__container {
     display: flex;
     justify-content: space-between;
-    text-align: center;
 }
 
-.logo {
-    font-weight: 700;
-    font-size: 16px;
-    color: #3500B5;
+.header__nav {
+
 }
 
-.menu__list {
+.nav__list {
     display: flex;
-    justify-content: space-between;
-    text-align: center;
-    gap: 40px;
-}
-
-.menu__item {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    gap: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
     text-transform: uppercase;
-    color: #333333;
 }
 
-.user__phone {
-    margin-right: 10px;
+.nav__link:hover {
+    color: #01A096;
 }
+
 
 
 

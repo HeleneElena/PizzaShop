@@ -1,0 +1,47 @@
+.procedures {
+    margin-bottom: 165px;
+    margin-top: 50px;
+}
+
+.procedures__container {
+    display: flex;
+}
+
+.procedures__card {
+    display: flex;
+    margin-bottom: 74px;
+    margin-top: 50px;
+}
+
+.procedures__content {
+    margin-left: 35px;
+    margin-top: 44px;
+    max-width: 459px;
+}
+
+.procedures__title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.procedures__text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 135%;
+}
+
+.procedures__card-rigth {
+    display: flex;
+    margin-bottom: 74px;
+}
+
+.procedures__content-rigth {
+    max-width: 459px;
+    margin-right: 35px;
+    margin-top: 34px;
+}
+
+.procedures__btn {
+    margin-top: 30px;
+}

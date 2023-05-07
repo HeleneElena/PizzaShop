@@ -1,0 +1,51 @@
+.main {
+    margin-bottom: 104px;
+}
+
+.main__container {
+    display: flex;
+}
+
+.main__content {
+
+}
+
+.main__title {
+    font-family: 'Sverdlovsk';
+    font-weight: 400;
+    font-size: 128px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.haup__title {
+    margin-top: 0;
+    margin-left: 84px;
+    margin-bottom: 127px;
+}
+
+.main__btn {
+   cursor: pointer;
+   width: 150px;
+    height: 234.26px;
+    background: #AADCD9;
+    transform: rotate(87.01deg);
+    border-radius: 100px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 36px 63px;
+}
+
+.btn__img {
+
+}
+
+.main__foto {
+
+}
+
+.main__elena {
+
+}

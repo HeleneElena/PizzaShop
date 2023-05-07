@@ -37,8 +37,16 @@ button {
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
     margin: 0 auto;
     max-width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title__h2 {
+    font-family: 'Sverdlovsk';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 57px;
+    text-align: center;
 }

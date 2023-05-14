@@ -1,28 +1,31 @@
 .header {
-    margin-top: 71px;
-    margin-bottom: 27px;
+    padding-bottom: 36px;
 }
 
-.header__container {
+.header__wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.header__nav {
-
+.logo { 
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 56px;
+    color: #93CBC3;
 }
 
-.nav__list {
+.header__list {
     display: flex;
-    gap: 30px;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
+    gap: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
     text-transform: uppercase;
 }
 
-.nav__link:hover {
-    color: #01A096;
+.header__user {
+    margin-right: 10px;
 }
 
 

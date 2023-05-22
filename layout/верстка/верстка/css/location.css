@@ -1,0 +1,28 @@
+.location {
+   padding-top: 98px;
+   padding-bottom: 226px;
+   background-color: #729077;
+}
+
+.title__h2 {
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 69px;
+}
+
+.location__list {
+    display: flex;
+    gap: 79px;
+    justify-content: space-between;
+}
+
+.emocion {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 64px;
+    text-align: center;
+    color: rgba(254, 227, 222, 0.86);
+}
+

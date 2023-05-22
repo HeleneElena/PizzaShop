@@ -17,57 +17,93 @@
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/location.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <header class="header">
-        <div class="container header__container">
-            <img src="./img/logo.jpg" alt="logotip" class="header__logo">
-
-            <nav class="header__nav">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Обо мне</a>
+        <div class="container">
+            <nav class="header__wrapper">
+                <p class="logo">WTG</p>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#" class="header__link">Локации</a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">процедуры</a>
+                    <li class="header__item">
+                        <a href="#" class="header__link">события</a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">отзывы</a>
+                    <li class="header__item">
+                        <a href="#" class="header__link">маршруты</a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">Советы</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#" class="nav__link">контакты</a>
+                    <li class="header__item">
+                        <a href="#" class="header__link">отдых</a>
                     </li>
                 </ul>
+                <div class="header__contakt">
+                    <img src="./img/user.svg" alt="user" class="header__user">
+                    <img src="./img/search.svg" alt="search" class="header__search">
+                </div>
             </nav>
         </div>
     </header>
 
     <section class="main">
-        <div class="container main__container">
-            <div class="main__content">
-                <h1 class="main__title">Косметолог</h1>
-                <h1 class="main__title haup__title">Елена свердлова</h1>
-                <a class="main__btn">Записаться</a>
-            </div>
-
-            <div class="main__foto">
-                <img src="./img/главное фото.jpg" alt="Elena foto" class="main__elena">
+        <div class="container">
+            <div class="main__wrapper">
+                <img src="./img/fon.png" alt="travelfoto" class="main__foto">
+                <div class="main__content">
+                    <h1 class="main__title">Не знаешь куда пойти?</h1>
+                    <p class="main__text">Я помогу!</p>
+                </div>
+                <div class="main__search">
+                    <input type="text" class="main__city" placeholder="Выбери город">
+                    <input type="text" class="main__date" placeholder="Выбери дату">
+                    <button class="main__btn">найти событие</button>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="about">
-        <div class="container about__container">
-            <img src="./img/обо мне.jpg" alt="about" class="about__img">
-            <div class="about__content">
-                <p class="about__text">Меня зовут Елена, и я являюсь косметологом с многолетним опытом работы. Моя специализация - это уход за кожей.</p>
-                <p class="about__text">Я предоставляю широкий спектр процедур, начиная от очищения и увлажнения кожи, до более сложных процедур, таких как химический пилинг и лазерная шлифовка. Я также провожу консультации по уходу за кожей и помогаю моим клиентам подобрать оптимальный уход дома.</p>
-                <p class="about__text">Я стараюсь создать комфортную и уютную атмосферу в своем кабинете, чтобы мои клиенты могли расслабиться и насладиться процедурами. Мой приоритет - это здоровье и безопасность моих клиентов.</p>
+    <section class="location">
+        <h2 class="title__h2">Рекомендуемые локации</h2>
+        <div class="container">
+            <ul class="location__list">
+                <div class="location__item">
+                    <img src="./img/cart1.jpg" alt="cart location" class="location__img">
+                </div>
+                <div class="location__item">
+                    <p class="emocion">Эмоции</p>
+                    <img src="./img/cart2.jpg" alt="cart location" class="location__img">
+                </div>
+                <div class="location__item">
+                    <img src="./img/cart3.jpg" alt="cart location" class="location__img">
+                </div>
+            </ul>
+        </div>
+    </section>
+
+    <section class="event">
+        <h2 class="title__h2">Главные события недели</h2>
+        <div class="container">
+            <div class="event__wrapper">
+                <div class="event__content">
+                    <h3 class="event__title">New Star Camp</h3>
+                    <p class="event__text">Уже в 12-й раз в Сочи пройдет New Star Camp — несколько дней настоящего счастья, где соединяются спорт, музыка, закаты, рассветы и атмосфера ежедневного праздника. Это прекрасный фестиваль не только для тех, кто по уши влюблен в снег и покатушки: мероприятие понравится и тому, кто без ума от классных тусовок, ярких людей, неординарных личностей и новой музыки! </p>
+                    <div class="event__wrapper_list">
+                        <ul class="event__list">
+                            <li class="event__item">Адрес: г. Сочи, Роза Хутор</li>
+                            <li class="event__item">Дата: 30 марта — 2 апреля</li>
+                        </ul>
+                        <ul class="event__list">
+                            <li class="event__item">Цена: от 33 500 руб.</li>
+                            <li class="event__item">Возраст: от 16 лет</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="event__btn">подробнее</a>
+                </div>
+                <div class="event__img">
+                    <img src="./img/events week.jpg" alt="event">
+                </div>
             </div>
         </div>
     </section>

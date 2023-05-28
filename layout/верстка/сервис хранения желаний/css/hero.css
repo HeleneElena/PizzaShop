@@ -1,0 +1,56 @@
+.container__hero {
+    display: block;
+}
+
+.hero__title {
+    font-weight: 400;
+    font-size: 312px;
+    line-height: 354px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.hero__subtitle {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 54px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 135px;
+}
+
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 113px;
+}
+
+.hero__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 64px;
+    padding-left: 200px;
+}
+
+.hero__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    max-width: 300px;
+}
+
+.hero__number {
+    font-weight: 400;
+    font-size: 92px;
+    line-height: 108px;
+}
+
+.hero__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}

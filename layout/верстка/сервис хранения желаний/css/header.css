@@ -1,0 +1,35 @@
+.header {
+    padding-top: 78px;
+    margin-bottom: 278px;
+}
+
+.registration {
+    width: 371px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #365ABA;
+    margin-right: 22px;
+}
+
+.login {
+    width: 137px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #365ABA;
+}
+
+
+
+
+
+

@@ -40,3 +40,103 @@ ul {
 h1, h2, h3, p, fieldset {
     margin: 0;
 }
+
+.container {
+    --width: 1180px;
+    --padding: 30px;
+    max-width: calc(var(--width) + (var(--padding) * 2));
+    padding: 0 var(--padding);
+    margin: 0 auto;
+}
+
+.btn {
+    border-radius: 40px;
+    background:  #F44;
+    box-shadow: 0px 4px 20px 0px #FA5A5A;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; 
+    padding: 12px 28px;
+}
+
+.header {
+    padding: 32px 0;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__btns {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.header__btn-order {
+    display: block;
+}
+
+.hero {
+    padding-bottom: 85px;
+    padding-top: 30px;
+}
+
+.hero__title {
+    width: 880px;
+    font-size: 84px;
+    font-weight: 900;
+    margin-bottom: 70px;
+}
+
+.text-red {
+    color:#F44;
+}
+
+.hero__cups {
+    display: flex;
+    gap: 20px;
+    padding-top: 270px;
+}
+
+.hero__cup {
+    width: 380px;
+    height: 382px;
+    border-radius: 24px;
+    position: relative;
+}
+
+.hero__cup-pink {
+    background-color: #FF196C;
+}
+
+.hero__cup-orange {
+    background-color: #FFB72A;
+    margin-top: -70px;
+}
+
+.hero__cup-green {
+    background-color: #34B905;
+}
+
+.hero__img {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer {
+    padding-bottom: 32px;
+    padding-top: 30px;
+}
+
+.footer__logo {
+    padding-bottom: 40px;
+}
+

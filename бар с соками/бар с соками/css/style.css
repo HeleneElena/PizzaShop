@@ -131,9 +131,77 @@ h1, h2, h3, p, fieldset {
     transform: translateX(-50%);
 }
 
+.goods {
+    padding: 60px 70px;
+}
+
+.goods__title {
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.goods__list {
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    gap: 20px;
+}
+
+.cocktail {
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+     background-color: #FFF;
+     padding: 12px;
+}
+
+.cocktail__img {
+    flex-grow: 1;
+    width: 100%;
+    border-radius: 24px;
+    margin-bottom: 12px;
+}
+
+.cocktail__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.cocktail__title {
+    font-size: 18px;
+    font-weight: 400; 
+}
+
+.cocktail__price {
+    color: #F44;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cocktail__size {
+    color:#C1C1C1;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.cocktail__btn {
+    margin-bottom: auto;
+}
+
+
 .footer {
     padding-bottom: 32px;
     padding-top: 30px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer__logo {

@@ -1,34 +1,21 @@
 .header {
-    padding-bottom: 36px;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
-.header__wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo { 
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 56px;
-    color: #93CBC3;
-}
-
-.header__list {
-    display: flex;
-    gap: 20px;
-    font-weight: 400;
+.header__btn {
+    padding: 18px 40px;
+    border-radius: 24px; 
+    background-color: transparent;
+    border: 1px solid #232020;
+    color:#232020;
+    font-family: Inter;
     font-size: 16px;
-    line-height: 22px;
+    font-weight: 400;
     text-transform: uppercase;
+    cursor: pointer;
 }
-
-.header__user {
-    margin-right: 10px;
+.header__btn:hover {
+    border: 1px solid #FFC700;
+    background-color: #FFC700;
 }
-
-
-
-
-

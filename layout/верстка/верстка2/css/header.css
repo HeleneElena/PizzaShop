@@ -1,0 +1,21 @@
+.header {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.header__btn {
+    padding: 18px 40px;
+    border-radius: 24px; 
+    background-color: transparent;
+    border: 1px solid #232020;
+    color:#232020;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.header__btn:hover {
+    border: 1px solid #FFC700;
+    background-color: #FFC700;
+}

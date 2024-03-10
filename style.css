@@ -1,0 +1,120 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/raleway-v29-cyrillic_latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/raleway-v29-cyrillic_latin-500.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/raleway-v29-cyrillic_latin-700.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/raleway-v29-cyrillic_latin-900.woff2') format('woff2'); 
+}
+
+html {
+    position: relative; /*чтобы элемент не выпадал, был внутри сайта*/
+    box-sizing: border-box;
+}
+
+*, &::before, &::after {
+    box-sizing: inherit; /*написали 500px элемент, он будет 500рх четко, несмотря на бордер и пр.*/
+}
+
+body {
+    position: relative; /*НЕОБЯЗАТЕЛЬНО чтобы элемент не выпадал, был внутри сайта*/
+    overflow-x: hidden; /*НЕОБЯЗАТЕЛЬНО*/
+    min-width: 320px; /*минимальная ширина сайта*/
+    min-height: 100vh; /*минимальная высота сайта*/
+    font-family: Raleway, sans-serif;
+    -webkit-font-smoothing: antialiased; /*для оптимизации шрифтов размеры*/
+    -moz-osx-font-smoothing: grayscale; /*для оптимизации шрифтов размеры*/
+    text-rendering: optimizeLegibility; /*тоже*/
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    color: #000; /*НЕОБЯЗАТЕЛЬНО основной цвет шрифта*/
+    background-color: #f0f4f4;
+}
+
+img,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+svg {
+    max-height: 100%;
+}
+
+button {
+    padding: 0; /*убираем все, так как у нас свои стили*/
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+a {
+    text-decoration: none; /*подчеркивание убрали ссылки*/
+    color: inherit; /*синийцвет по умолчанию убрали*/
+}
+
+ul {
+    list-style: none; /*убрали точки списка*/
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure, /*НЕОБЯЗАТЕЛЬНО, если на сайте их нет, то удалить здесь*/
+fieldset {
+    margin: 0;
+}
+
+inframe { /*НЕОБЯЗАТЕЛЬНО, если на сайте их нет, то удалить здесь*/
+    bottom: none;
+}
+
+/*
+Доступно скрываем элементы, на майн прописываем класс для h1б и роботы
+поисковики его увидят, а на сайте его не будет
+*/
+.visually-hidden { 
+    position: fixed;
+    transform: scale(0);
+}
+
+/*
+пример  контейнера
+Если контейнер 1180px по макету, то для max-width прибавляем паддинги 30px*2б
+в итоге 1240px
+Чтобы контент не прижался к краям
+*/
+
+.container {
+    max-width: 1240px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
